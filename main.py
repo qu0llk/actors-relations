@@ -20,12 +20,12 @@ def main():
     movies = scraper.get_movie_links()
 
     for title, link in movies.items():
-        print(f"Parsing: {title}, {link}")
-        print("-" * 50)
+        print(f"{title.split()[0]} @ {link}")
+        print("-" * 100)
         # actors = parser.get_actors(link)
         # library[title] = actors
 
-    browser.stop()
+    # browser.stop()
 
     print(library)
 
