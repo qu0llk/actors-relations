@@ -1,0 +1,11 @@
+{
+  "category_url": "https://www.kinopoisk.ru/lists/movies/top250/?b=top",
+  
+  "browser": {
+    "binary_location": null,
+    "driver_path": null,
+    "headless": false
+  },
+  
+  "delay_seconds": 5
+}
